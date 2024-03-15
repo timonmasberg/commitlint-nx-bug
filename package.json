@@ -2,12 +2,17 @@
   "name": "@commitlint-nx-19/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "prepare": "husky install"
+  },
   "private": true,
-  "dependencies": {},
   "devDependencies": {
+    "@commitlint/cli": "^19.2.0",
+    "@commitlint/config-conventional": "^19.1.0",
+    "@commitlint/config-nx-scopes": "^19.1.0",
     "@nx/js": "18.0.8",
     "@nx/workspace": "18.0.8",
+    "husky": "^8.0.0",
     "nx": "18.0.8"
   }
 }
